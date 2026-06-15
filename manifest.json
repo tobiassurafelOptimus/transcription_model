@@ -1,0 +1,63 @@
+{
+  "model_dir": "faster-whisper-base.en",
+  "base_url": "",
+  "assets": [
+    {
+      "path": "faster-whisper-base.en/config.json",
+      "size": 2227,
+      "sha256": "f3bc3821e9fc76a27bae538e11ae5b677dcdd352b4600429ce7951d398569aeb"
+    },
+    {
+      "path": "faster-whisper-base.en/tokenizer.json",
+      "size": 2128466,
+      "sha256": "929c5252409436dce1b38a75d1abbcb5e132d170d8e324e4e04ed915fa2d22df"
+    },
+    {
+      "path": "faster-whisper-base.en/vocabulary.txt",
+      "size": 422309,
+      "sha256": "ff77588746d3a2595d32ab5b69ffd7b95ce2441ac57533cb66fc3eb575a115cf"
+    }
+  ],
+  "model_bin": {
+    "target": "faster-whisper-base.en/model.bin",
+    "size": 145216508,
+    "sha256": "2a166925539a16005f14ff328359f9b9adb9dc4fb631bb3b227526862e93e2ef",
+    "parts": [
+      {
+        "path": "faster-whisper-base.en/model.bin.part000",
+        "size": 20971520,
+        "sha256": "de15d8e41917d23a6073b7ae3998c96b1bfb6f090c1c05fed0d9eb545c6bcde7"
+      },
+      {
+        "path": "faster-whisper-base.en/model.bin.part001",
+        "size": 20971520,
+        "sha256": "f2383f5452922a3701556b9526d4e59a48de0454a08192c85fb38f6d346d3178"
+      },
+      {
+        "path": "faster-whisper-base.en/model.bin.part002",
+        "size": 20971520,
+        "sha256": "312c7a580d427c6d6aec11226d92bcb8ed04c1c09b6321413755030ea62fbf34"
+      },
+      {
+        "path": "faster-whisper-base.en/model.bin.part003",
+        "size": 20971520,
+        "sha256": "1dcb4ef278fb2446b94badae12c6041126a2ca8b94e48de3b1cec9ca39cfa5f3"
+      },
+      {
+        "path": "faster-whisper-base.en/model.bin.part004",
+        "size": 20971520,
+        "sha256": "b80076bbd307beaaa5de2a7ea042cb9462372566eb071a581a308d7fbdaf8b6e"
+      },
+      {
+        "path": "faster-whisper-base.en/model.bin.part005",
+        "size": 20971520,
+        "sha256": "1925b6d67b61cfd618a73a48b7b7431385239d3110a2ee3098880cae1d1f6db6"
+      },
+      {
+        "path": "faster-whisper-base.en/model.bin.part006",
+        "size": 19387388,
+        "sha256": "f0a2a17417be9092803b9d25baebcbf2c86cc78516814a67f04a02546ba42218"
+      }
+    ]
+  }
+}
